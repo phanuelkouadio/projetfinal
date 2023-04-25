@@ -175,10 +175,14 @@ header{
 }
 
 .foot-left{
-  width: 600px;
+  width: 30%;
   border-radius: 1rem;
   border: 1px solid hsl(234, 8%, 51%);
-  background-image:url('../images/xbanner-02.jpg.pagespeed.ic.MQuZq6F18q.webp');
+  background :url("../images/xbanner-02.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
 }
 
 .deco{
@@ -187,10 +191,14 @@ header{
 }
 
 .foot-middle{
-  width: 25%;
+  width: 30%;
   border-radius: 1rem;
   border: 1px solid #77798C;
-  background-image: url('../images/xbanner-01.jpg.pagespeed.ic.Uj5FE94mgU.webp');
+  background-image: url('../images/xbanner-01.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
 }
 
 
@@ -200,10 +208,14 @@ header{
 }
 
 .foot-right{
-  width: 25%;
+  width: 30%;
   border-radius: 1rem;
   border: 1px solid #77798C;
-  background-image: url('../images/xbanner-03.jpg.pagespeed.ic.1rqLomOaMb.webp');
+  background-image: url('../images/xbanner-03.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:300px;
   
 }
 
