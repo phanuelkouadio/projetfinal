@@ -1,117 +1,12 @@
 ## Information
-
-Ceci est le repos de base pour le projet.
-
-
-Vous y trouverez les images, les icones et les couleurs....
+Projet réalisé avec HTML CSS et JAVASCRIPT
 
 ### Lien du site Temoin
 
-[https://lmc-shop.netlify.app](https://lmc-shop.netlify.app)
+[https://gomycode-final-project.netlify.app/](https://gomycode-final-project.netlify.app/)
 
 
 
 
 
- <header>
-        <div class="container">
-            <div class="container-left">
-                <form action="">
-                    <input type="text" value="" placeholder="Rechercher un produit...">
-
-                </form>
-                <div class="container-left2">
-                    <img src="icones/search (1).svg" alt="">
-
-                </div>
-
-            </div>
-            <div class="container-middle">
-                <a href="index.html">
-                    <img src="icones/Groupe-1.png" alt="">
-                </a>
-            </div>
-
-            <div class="container-right">
-                <form action="">
  
-                    <select name="langue" id="select-langue"> 
-                       <option value="opt1"> Francais</option>
-                       <option value=" opt2">Anglais</option>
-                       <option value="opt3">Chinois</option>                   
-                    </select>
-
-
-                   <select name="XOF" id="select-langue">
-                       <option value="opt1">XOF</option>
-                       <option value="opt2">USD</option>
-                       <option value="opt3">STR</option>
-                   </select>
-               </form>
-
-            </div>
-            
-   
-
-        </div>
-    </header>
-
-    <main>
-        <div class="paiement">
-            <div class="info1">
-                <div class="first-line">
-                    <div class="first-line-one">
-                        <p>Sous total (3 articles)</p>
-                    </div>
-                    <div class="first-line-two">    
-                        <p>3000 frs</p>
-                    </div> 
-                </div>
-
-                <div class="second-line">
-                    <div class="seconr-line-one">
-                        <p>Frais de livraison</p>
-                    </div>
-                    <div class="second-line-two">    
-                        <p>1000 frs</p>
-                    </div> 
-                </div>
-                <div class="third-line">
-                    <div class="third-line-one ">
-                        <p>coupon</p>
-
-                    </div>
-                    <div class="third-line-two">
-                        <div class="third-line-two-left">
-                            <form action="">
-                                <input type="text" value="" placeholder="coupon...">
-
-                            </form>
-
-                        </div>
-                        <div class="third-line-two-right">
-                            <button class="btn-blue-0">appliquer</button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="info2">
-               
-
-            </div>
-            <div class="info3">
-
-            </div>
-            <div class="info4">
-
-            </div>
-            <div class="info5">
-
-            </div>
-
-        </div>
-    </main>
