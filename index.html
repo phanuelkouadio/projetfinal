@@ -12,13 +12,12 @@
     <header>
         <div class="container">
             <div class="container-left">
-                <form action="">
-                    <input type="text" value="" placeholder="Rechercher un produit...">
+                
+                    <div class="container-left1"><p>Rechercher un produit...</p></div>
 
-                </form>
+    
                 <div class="container-left2">
                     <img src="icones/search (1).svg" alt="">
-
                 </div>
 
             </div>
@@ -46,14 +45,63 @@
 
 
                 <div class="items">
-                    <div class="items1">
-                        <h4>connexion</h4>
+                    
+                    <button class="items1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">connexion </button>
+                    <div id="id01" class="modal">
+                        <div id="id02">
+                                <form class="modal-content" action="" method="post">
+                                    <h3 id="titlemodal">connexion</h3>
+                                    <span class="close" onclick="document.getElementById('id01').style.display='none'" >&times;</span>
+                                     <div class="btn"></div>
+                                </form>  
+                    
+                                <div class="contenu">
+                                    <div class="contenu-modal">
+                                        <div class="contenu-modal1">
+                                            <p>Vous n'avez pas de compte ?</p>
+                                        </div>
+                                        <div class="contenu-modal2">
+                                            <p>inscrivez-vous</p>
+                                        </div>
+                                    </div>
+                                </div>     
+                                <div class="case">
+                                    <div class="case-one">
+                                        <div class="case-one-left"> G*</div>
+                                        <div class="case-one-right">connexion avec google</div>
+
+                                    </div>
+                                    <div class="case-two">
+                                        <p>F connexion avec facebook</p>
+                                    </div>
+
+                                </div>
+                                <div class="tiret">
+                                    <div class="tiret1"></div>
+                                    <div class="tiret2"> <p>ou </p></div>
+                                    <div class="tiret3"></div>
+
+                                </div>
+                                <div class="champ">
+                                    <input type="text" placeholder="Adresse Email" name="Adresse" required><br>
+                                    <input type="password" placeholder="mot de passe " name="password" required>
+                                </div>
+                                 <button type="submit" class="rat">se connecter</button>
+
+                                 <span class="psw">mot de passe oublié</span>
+                        </div>
+
 
                     </div>
                     <div class="items2">
                         <h4>inscription</h4>
 
                     </div>
+                    <div class="items3">
+                         <img src="icones/search (1).svg"  id="image"alt="">
+
+                    </div>
+                   
                 </div>
 
 
@@ -64,13 +112,13 @@
     <div class="btn"></div>
     <section>
         <nav class="para">
-            <a href="index1.html" id="list">categories</a>
+            <a href="shop.html" id="list">categories</a>
            
-            <a href="index2.html" id="list">vetement</a>
+            <a href="shop.html" id="list">vetement</a>
            
-            <a href="index1.html" id="list">Accessoires</a>
+            <a href="shop.html" id="list">Accessoires</a>
            
-            <a href="index1.html" id="list">Chaussures</a>
+            <a href="shop.html" id="list">Chaussures</a>
            
 
         </nav>
@@ -96,18 +144,18 @@
             
             <div class="foot-left">
                 <h3 class="deco">Hommes</h3>
-                <a href="index1.html">voir plus</a>
+                <a href="shop.html">voir plus</a>
                 
             </div>
             <div class="foot-middle">
                 <h3 class="demo">Femmes</h3>
-                <a href="index1.html">voir plus</a>
+                <a href="shop.html">voir plus</a>
 
                 
             </div>
             <div class="foot-right">
                 <h3 class="txt">Accessoires</h3>
-                <a href="index1.html">voir plus</a>
+                <a href="shop.html">voir plus</a>
                 
 
             </div>
@@ -143,7 +191,7 @@
                         </div>
                         <div class="box-head-right4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -171,7 +219,7 @@
                         </div>
                         <div class="box-head-right4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -201,7 +249,7 @@
                         </div>
                         <div class="box-head-right4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -231,7 +279,7 @@
                         </div>
                         <div class="box-head-right4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -268,7 +316,7 @@
                         </div>
                         <div class="box-middle-items4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -300,7 +348,7 @@
                         </div>
                         <div class="box-middle-items4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -331,7 +379,7 @@
                         </div>
                         <div class="box-middle-items4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -362,7 +410,7 @@
                         </div>
                         <div class="box-middle-items4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -402,7 +450,7 @@
                         </div>
                         <div class="box-down-brands4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -437,7 +485,7 @@
                         </div>
                         <div class="box-down-brands4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -472,7 +520,7 @@
                         </div>
                         <div class="box-down-brands4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
@@ -507,7 +555,7 @@
                         </div>
                         <div class="box-down-brands4">
                             <button class="btn-blue">
-                                <a href="index2.html" id="color">Acheter</a>
+                                <a href="articles.html" id="color">Acheter</a>
                             </button>
                             <button class="btn-white">
                                 +
