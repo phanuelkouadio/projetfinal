@@ -293,7 +293,7 @@ input[type=text], input[type=password] {
   height: 300px;
   border-radius: 1rem;
   border: 1px solid #f1f1f1 ;
-  background-image:url('../images/xbanner-02.jpg.pagespeed.ic.MQuZq6F18q.webp');
+  background-image:url('../images/xbanner-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1rem;
@@ -309,7 +309,7 @@ input[type=text], input[type=password] {
   height: 300px;
   border-radius: 1rem;
   border: 1px solid #f1f1f1;
-  background-image: url('../images/xbanner-01.jpg.pagespeed.ic.Uj5FE94mgU.webp');
+  background-image: url('../images/xbanner-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1rem;
@@ -326,7 +326,7 @@ input[type=text], input[type=password] {
   height: 300px;
   border-radius: 1rem;
   border: 1px solid #f1f1f1;
-  background-image: url('../images/xbanner-03.jpg.pagespeed.ic.1rqLomOaMb.webp');
+  background-image: url('../images/xbanner-03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1rem;
