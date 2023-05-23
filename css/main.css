@@ -695,11 +695,76 @@ input[type=text], input[type=password] {
   border: white 1px solid;
   background-color: white;
   width: 60%;
-  height: 250px;
+  height: 150px;
   margin-left: 30rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
   
+}
+
+.line-four{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.line-four-two{
+  color: #1320DC;
+}
+
+.line-five{
+  background-color:#f1f1f1 ;
+  border-radius: 0.5rem;
+  width: 30%;
+  padding: 1rem;
+  margin-top: 2rem;
+
+}
+
+.info3{
+  border: white 1px solid;
+  background-color: white;
+  width: 60%;
+  height: 200px;
+  margin-left: 30rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  
+}
+
+.line-six{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.line-six-two{
+  color: #1320DC;
+}
+
+.line-seven{
+  display: flex;
+  margin-top: 2rem;
+
+}
+
+.line-seven-one{
+  border: #f1f1f1 1px solid;
+  border-radius: 0.5rem;
+  width: 40%;
+  height: 100px;
+  padding: 1.3rem;
+}
+
+.line-seven-two{
+  border: #1320DC 1px solid;
+  border-radius: 0.5rem;
+  width: 35%;
+  height: 100px;
+  margin-left: 2rem;
+  padding: 1.3rem;
+}
+#color{
+  color:#77798C;
 }
 
 .items3{
